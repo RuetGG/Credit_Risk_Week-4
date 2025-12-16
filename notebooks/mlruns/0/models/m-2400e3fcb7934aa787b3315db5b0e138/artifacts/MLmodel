@@ -1,0 +1,22 @@
+artifact_path: file:c:/Users/ruthg/OneDrive/Desktop/KIFYA Tasks/Bati-Week 4/notebooks/mlruns/0/models/m-2400e3fcb7934aa787b3315db5b0e138/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.7.0
+model_id: m-2400e3fcb7934aa787b3315db5b0e138
+model_size_bytes: 24852065
+model_uuid: m-2400e3fcb7934aa787b3315db5b0e138
+prompts: null
+run_id: fab59098a0e4423fa02d18876b910ba6
+utc_time_created: '2025-12-16 16:54:18.608101'
